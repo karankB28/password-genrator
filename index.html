@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>password genrator</title>
+</head>
+<body>
+    <h1> password Genrator</h1>
+    <div class="genrator">
+        <div class="password">
+            <input type="text" value="test">
+            <button>copy</button> 
+        </div>
+        <div class="range">
+            <input type="range" min="4" max="20" value="8" />
+            <span>8</span>
+
+        </div>
+        <div class="option">
+            <div class="option">
+                <label>
+                    <input type="checkbox"
+                    id="lowercasecb" checked />
+                    <span>a-z</span>
+                </label>
+            </div>
+            <div class="option">
+                <label >
+                    <input type="checkbox"
+                    id="uppercasecb" />
+                    <span>A-Z</span>
+                </label>
+            </div>
+            <div class="option">
+                <label>
+                    <input type="checkbox"
+                    id="digitcb" />
+                    <span>0-9</span>
+                </label>
+            </div>
+            <div class="option">
+                <label>
+                    <input type="checkbox"
+                    id="Speacialcb" />
+                    <span>!@#$%&</span>
+                </label>
+            </div>
+        </div>
+        <button class="genrate"> genrate </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  background-image: url(soft-gradient-solid.jpg);
+  background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main container */
+.genrator {
+    background-color: #479aca5b;
+    margin-right: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(241, 230, 239, 0.9);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-right: 1.9rem;
+    color: #242624;
+    font-weight: 900;
+    
+    
+    border: solid black;
+    box-shadow: 0 3px 6px wheat;
+    
+
+    border-radius: 7px;
+}
+
+/* Password display */
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.password input {
+    width: 75%;
+    padding: 8px;
+    border: 2px solid #65c368;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+.password button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.password button:hover {
+    background-color: #0f2f11;
+}
+
+/* Range Slider */
+.range {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.range input[type="range"] {
+    margin-right: 100px;
+    
+    width: 60%;
+    
+}
+
+.range span {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+/* Options */
+.option {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.option label {
+    font-size: 14px;
+    color: #333;
+}
+
+.option input {
+    margin-right: 10px;
+}
+
+/* Generate Button */
+.genrate {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 900;
+    border: solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.genrate:hover {
+    background-color: #071b08;
+}
